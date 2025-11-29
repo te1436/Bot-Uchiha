@@ -8,7 +8,6 @@
     "node": ">=20"
   },
   "scripts": {"lint:fix": "eslint --fix .",
-    "format": "prettier --write ."}}
     "start": "node index.js",
     "lint": "eslint .",
     "test": "echo No tests specified && exit 0",
