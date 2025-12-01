@@ -2,7 +2,7 @@
   "name": "𝐔𝐜𝐡𝐢𝐡𝐚-𝐁𝐨𝐭",
   "version": "10.0.1",
   "description": "Contato: +244948963368",
-  "main": "start.js",
+  "main": "index.js",
   "author": "𝐑ú𝐛𝐞𝐧 𝐒𝐢𝐥𝐯𝐞𝐫 👨🏽‍💻",
   "license": "MIT",
   "type": "module",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "lint": "eslint --fix .",
-    "start": "node start.js",
+    "start": "node index.js",
     "test": "jest",
     "build": "tsc"
   },
