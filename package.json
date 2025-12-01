@@ -2,7 +2,7 @@
   "name": "𝐔𝐜𝐡𝐢𝐡𝐚-𝐁𝐨𝐭",
   "version": "10.0.1",
   "description": "Contato: +244948963368",
-  "main": "index.js",
+  "main": "start.js",
   "author": "𝐑ú𝐛𝐞𝐧 𝐒𝐢𝐥𝐯𝐞𝐫 👨🏽‍💻",
   "license": "MIT",
   "type": "module",
@@ -11,18 +11,19 @@
   },
   "scripts": {
     "lint": "eslint --fix .",
-    "start": "node index.js",
+    "start": "node start.js",
     "test": "jest",
     "build": "tsc"
   },
   "dependencies": {
-    "@deyvydofc/baileys": "1.0.2",
     "@vitalets/google-translate-api": "^9.2.0",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
     "acrcloud": "^1.4.0",
     "aki-api": "^x",
     "archiver": "^7.0.1",
     "assemblyai": "^2.0.2",
     "axios": "^1.12.0",
+    "baileys": "^7.0.0-rc.9",
     "bing-translate-api": "^4.0.2",
     "browser-id3-writer": "^4.4.0",
     "btch-gemini": "^4.0.91-alpha",
@@ -34,6 +35,7 @@
     "crypto-js": "^4.2.0",
     "end-of-stream": "^1.4.4",
     "escape-string-regexp": "^1.0.5",
+    "express": "^5.1.0",
     "fake-useragent": "^1.0.1",
     "fluent-ffmpeg": "^2.1.2",
     "format-duration-time": "^1.5.4",
@@ -79,7 +81,7 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
-    "overrides": {
+  "overrides": {
     "form-data": "^4.0.4",
     "safe-eval": "^0.4.1",
     "tough-cookie": "4.1.3",
